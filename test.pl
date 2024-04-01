@@ -1,5 +1,8 @@
 #!perl
 
+#todo check local config with functions
+#todo прочитать конфиг, если он есть локально, и подгрузить необходимые функции
+
 print("Hi, Max! It's a SuperBot!\n\n");
 
 # echo local tasks or from Gmail, or something else
