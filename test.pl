@@ -10,3 +10,4 @@ print("Today tasks:\n");
 print("Today emails:\n");
 
 print("\nWhat are you plan to do? ;)\n");
+print("\ntest\n");
