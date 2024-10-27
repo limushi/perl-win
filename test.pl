@@ -1,12 +1,16 @@
 #!perl
 #use warnings;
 #use strict;
+use utf8;
+use Encode;
 
 #todo check local config with functions
 #todo прочитать конфиг, если он есть локально, и подгрузить необходимые функции
 #набор первых функций - напоминалки из файла tasks - задачи
 
-print("Hi, Max! It's a SuperBot!\n\n");
+#$bytes = encode('cp866', $string); # перекодировали строку из внутреннего представления в cp1251
+#$string = decode('cp1251', $bytes); # и обратно
+print(encode('cp866', "Hi, Max! It's a СуперБот!\n\n"));
 
 # echo local tasks or from Gmail, or something else
 #codepages :)
