@@ -5,4 +5,4 @@ several useful scripts for Windows under Perl
 
 example of tasks file:
 ```#1;task1;check tasks here```
-'''#2;task2;use test modules'''
+```#2;task2;use test modules```
